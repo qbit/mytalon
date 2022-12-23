@@ -1,9 +1,10 @@
 app: element
+os: mac
 -
 tag(): user.messaging
 tag(): user.emoji
-space <number>: key("ctrl-{number}")
-go home: key("ctrl-alt-h")
+space <number>: key("cmd-{number}")
+go home: key("cmd-alt-h")
 next room: key("alt-down")
 previous room: key("alt-up")
-room search: key("ctrl-k")
+room search: key("cmd-k")
