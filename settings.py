@@ -4,7 +4,7 @@ def disable_on_start():
     actions.speech.disable()
     actions.speech.set_microphone('None')
 
-app.register("ready", disable_on_start)
+app.register("launch", disable_on_start)
 
 app.notify(title="Talon startup complete!",
            subtitle="Speech and MIC are disabled.\nHappy hacking!",
